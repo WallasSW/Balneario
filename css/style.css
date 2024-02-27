@@ -1,0 +1,385 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/*Classes Auxiliares*/
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+
+
+.center{text-align: center;}
+
+.clear{clear: both;}
+
+/*Classes do meu site*/
+header{
+	padding:15px 0;
+	background: rgb(209, 207, 209);
+}
+
+.logo{
+	float: left;
+}
+
+.logo h2{
+	text-align: center;
+	font-weight: normal;
+	font-size: 25px;
+	color: maroon;
+	font-family: ABeeZee;
+}
+
+.logo a{
+	color: maroon;
+	text-decoration: none;
+}
+
+
+nav.menu-mobile{
+	display: none;
+	float: right;
+}
+
+nav.menu-mobile h2{
+	cursor: pointer;
+
+}
+nav.menu-mobile ul{
+	display: none;
+	width: 100%;
+	background: white;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	z-index: 999;
+	text-align: center;
+}
+
+nav.menu-mobile li{
+	padding:8px 0;
+	border-bottom: 1px solid black;
+}
+
+
+
+nav.menu-mobile a{
+	font-size: 20px;
+	font-family: ABeeZee;
+	display: block;
+	color: maroon;
+	text-decoration: none;
+}
+nav.menu-desktop li.selected{font-weight: normal;text-decoration: underline;}
+nav.menu-desktop{
+	float: right;
+		
+}
+
+nav.menu-desktop ul{
+	position: relative;
+	
+
+}
+
+nav.menu-desktop li{
+	padding:0 10px;
+	font-weight: lighter;
+	display: inline-block;
+
+
+}
+
+nav.menu-desktop a{
+	margin-left: 50px;
+
+	font-family: ABeeZee;
+    font-size: 21px;
+	color: maroon;
+	text-decoration: none;
+}
+
+nav.menu-desktop a:hover{text-decoration: underline;}
+
+/*Sessão Main*/
+section.main-bg{
+	position: relative;
+	width: 100%;
+	padding:200px 0 200px 0;
+	background-image: url('../images/img5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+
+
+
+
+
+section.diferenciais{
+	padding:90px 0;
+	text-align: center;
+	background: rgb(240, 239, 237);
+}
+
+.line-text{
+	position: relative;
+	display: inline-block;
+}
+
+.line-text div{
+	position: absolute;
+	left: 0;
+	
+	width: 200px;
+	height: 3px;
+	background:#52aaa7;
+}
+.line-text h3{
+	color:rgb(103, 190, 245);
+	font-family: adlam display;
+	font-size: 50px;
+	margin-top: 10px;
+	
+}
+.line-text h2{
+	color: black;
+	font-family: Abril Fatface;
+	font-size: 30px;
+	margin-top:-20px;
+
+	
+}
+
+.line-text h1 {
+	margin-top: 10px;
+
+	color: #e3e2de;
+	font-size: 40px;
+
+}
+
+
+
+
+
+
+
+section.cards{
+	padding:30px 0;
+}
+
+.card-single{
+	width: 33.3%;
+	float: left;
+	padding:10px;
+}
+
+.card-single img{
+	width: 100%;
+	
+
+}
+
+.card-single1  h3{
+	color: rgb(18, 63, 92);
+	margin-top: 5px;
+	font-family: Abril Fatface;
+	font-size: 28px;
+	text-align: center;
+}
+.card-single1 h2{
+	color: rgb(0, 153, 203);
+	margin-top: 5px;
+	
+	font-size: 48px;
+	text-align: center;
+}
+
+section.siga-nos{
+	padding:500px 0;
+	background:white;
+	text-align: center;
+}
+
+
+
+
+
+.soga-nos-container{
+	width: 100%;
+}
+
+.siga-nos-container h3{
+	color:rgb(1, 63, 112);
+	font-size: 25px;
+	margin-top:-450px;
+	font-family: Abril Fatface;
+}
+.siga-nos-container h2{
+	color:rgb(0, 153, 203);
+	font-size: 60px;
+	margin-top: 5px;
+}
+
+footer.footer1{
+	background-image: url('../images/img12.jpg');
+	padding:100px 0;
+    color:rgb(1, 63, 112);
+	position: relative;
+	width: 100%;
+	font-family: Abril Fatface;
+	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+footer.footer1 h2{
+	font-weight: normal;
+	font-size: 23px;
+	font-family: Abril Fatface;
+}
+
+footer.footer1 p{
+	margin-top:8px;
+	font-weight: lighter;
+	color: white;
+}
+
+footer.footer1 a{
+	display: block;
+	color: white;
+}
+
+div.group-icons a{
+	font-size: 18px;
+	display: inline-block;
+	margin:15px 10px;
+}
+
+
+
+
+
+/*Efeito paralax na página sobre*/
+
+section.paralax{
+	padding: 180px 0;
+	width: 100%;
+	min-height: 200px;
+	background-image: url('../images/img6.jpg');
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+section.paralax h2.chamada-paralax{
+	
+	padding: 5px 25px;
+	color: white;
+	font-size: 40px;
+	display: inline-block;
+}
+
+
+.inscricao-form input[type=text]{
+	width: calc(60% - 120px);
+	height: 35px;
+	background: white;
+	border: 1px solid #ccc;
+	display: inline-block;
+}
+
+.inscricao-form input[type=submit]{
+	width: 120px;
+	height: 35px;
+	background:rgb(232, 245, 56);
+	cursor: pointer;
+	display: inline-block;
+	border: 0;
+	color: blue;
+	margin-left: 15px;
+	font-size: 16px;
+}
+
+
+
+@media screen and (max-width: 1280px){
+
+section.contato{
+	min-height: 0px;
+}
+
+
+@media screen and (max-width: 768px){
+
+.tags-form{
+	padding-left: 0px;
+}
+
+.formulario input[type=text],
+.formulario input[type=email]{
+	margin-bottom: 0px;
+}
+
+.formulario textarea{
+	margin-bottom: 0;
+}
+
+	footer.footer1{
+		text-align: center;
+	}
+	.card-single{
+		width: 100%;
+	}
+	.w50{width: 100%;margin-bottom: 20px;}
+	.box-icone-single{
+		width: 100%;
+	}
+
+	.equipe-container{
+		width: 100%;
+	}
+
+	.sobre-container{
+		width: 100%;
+		margin-top:60px;
+	}
+
+	.sobre__noticia__single img{
+		width: 100%;
+	}
+
+	.sobre__noticia__single p{
+		margin-top:8px;
+		width: 100%;
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.card-text{width: 100%;}
+	.equipe-circle-single{
+	padding: 0 8px;
+	width: 100%;
+	margin-bottom: 30px;
+	}
+	nav.menu-desktop{display: none;}
+	nav.menu-mobile{
+		display: block;
+	}
+	.card-single{
+		padding:10px;
+	}
+}
